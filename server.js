@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
+
+apo.use(cors());
 
 const apiRoute = require("./routes/api");
 
@@ -8,7 +11,7 @@ const mongoose = require("mongoose");
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URL, {
+mongoose.connect(MONGODB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
