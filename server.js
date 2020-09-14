@@ -8,7 +8,7 @@ const mongoose = require("mongoose");
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost/todolist", {
+mongoose.connect(process.env.MONGODB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
