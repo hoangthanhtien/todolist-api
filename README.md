@@ -1,4 +1,7 @@
 # todolist-api
+### Get Todo:
+* Method: 'GET'
+* URL: 'https://tienhoang-todolist.herokuapp.com/api'
 ### Add Todo:
 * Method: 'POST'
 * URL: 'https://tienhoang-todolist.herokuapp.com/api'
