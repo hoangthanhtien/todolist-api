@@ -13,4 +13,3 @@
 ### Delete Todo:
 * Method: 'DELETE'
 * URL: 'https://tienhoang-todolist.herokuapp.com/api/delete-task/:id'
-* data: {id: Mongoose.ObjectId}
