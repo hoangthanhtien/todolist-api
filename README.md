@@ -10,7 +10,7 @@
 * Method: 'PUT'
 * URL: 'https://tienhoang-todolist.herokuapp.com/api'
 * data: {id: Mongoose.ObjectId, name: String}
-### Completed Todo:
+### Change Todo status (completed/not completed):
 * Method: 'POST'
 * URL: 'https://tienhoang-todolist.herokuapp.com/api/change-status/:id'
 ### Delete Todo:
